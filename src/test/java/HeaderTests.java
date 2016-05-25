@@ -94,6 +94,6 @@ public class HeaderTests {
 		gmailHeader.checkOwnProfile();
 		gmailHeader.logOut();
 		
-		BrowserFactory.quitBrowser(driver);
+		//BrowserFactory.quitBrowser(driver);
 	}
 }
