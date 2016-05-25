@@ -10,7 +10,7 @@ import PageObjects.GmailHeader;
 import PageObjects.LoginPage;
 
 public class HeaderTests {
-	/*
+	
 	@Test
 	public void checkTheHeaderIcon() throws InterruptedException {
 		WebDriver driver = BrowserFactory.startBrowser("Firefox",
@@ -80,7 +80,7 @@ public class HeaderTests {
 		gmailHeader.checkOwnProfile();
 		
 		BrowserFactory.quitBrowser(driver);
-	}*/
+	}
 	
 	@Test
 	public void checkAValidLoginAndLogout() throws InterruptedException {
@@ -94,6 +94,6 @@ public class HeaderTests {
 		gmailHeader.checkOwnProfile();
 		gmailHeader.logOut();
 		
-		//BrowserFactory.quitBrowser(driver);
+		BrowserFactory.quitBrowser(driver);
 	}
 }

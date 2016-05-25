@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10635" started-at="2016-05-25T06:21:46Z" finished-at="2016-05-25T06:21:57Z">
+  <suite name="Default suite" duration-ms="56743" started-at="2016-05-25T12:17:18Z" finished-at="2016-05-25T12:18:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10635" started-at="2016-05-25T06:21:46Z" finished-at="2016-05-25T06:21:57Z">
+    <test name="Default test" duration-ms="56743" started-at="2016-05-25T12:17:18Z" finished-at="2016-05-25T12:18:15Z">
       <class name="HeaderTests">
-        <test-method status="PASS" signature="checkAValidLoginAndLogout()[pri:0, instance:HeaderTests@4883b407]" name="checkAValidLoginAndLogout" duration-ms="10623" started-at="2016-05-25T08:21:46Z" finished-at="2016-05-25T08:21:57Z">
+        <test-method status="PASS" signature="checkAValidLoginAndLogout()[pri:0, instance:HeaderTests@4883b407]" name="checkAValidLoginAndLogout" duration-ms="10370" started-at="2016-05-25T14:17:18Z" finished-at="2016-05-25T14:17:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAValidLoginAndLogout -->
+        <test-method status="PASS" signature="checkAllApps()[pri:0, instance:HeaderTests@4883b407]" name="checkAllApps" duration-ms="9575" started-at="2016-05-25T14:17:28Z" finished-at="2016-05-25T14:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllApps -->
+        <test-method status="PASS" signature="checkTheHeaderIcon()[pri:0, instance:HeaderTests@4883b407]" name="checkTheHeaderIcon" duration-ms="9572" started-at="2016-05-25T14:17:38Z" finished-at="2016-05-25T14:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheHeaderIcon -->
+        <test-method status="PASS" signature="checkTheNotifications()[pri:0, instance:HeaderTests@4883b407]" name="checkTheNotifications" duration-ms="8936" started-at="2016-05-25T14:17:48Z" finished-at="2016-05-25T14:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheNotifications -->
+        <test-method status="PASS" signature="checkTheOwnProfile()[pri:0, instance:HeaderTests@4883b407]" name="checkTheOwnProfile" duration-ms="8920" started-at="2016-05-25T14:17:56Z" finished-at="2016-05-25T14:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheOwnProfile -->
+        <test-method status="PASS" signature="checkTheSearchFieldWithSubmit()[pri:0, instance:HeaderTests@4883b407]" name="checkTheSearchFieldWithSubmit" duration-ms="9350" started-at="2016-05-25T14:18:05Z" finished-at="2016-05-25T14:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheSearchFieldWithSubmit -->
       </class> <!-- HeaderTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
